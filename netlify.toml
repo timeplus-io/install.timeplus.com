@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "/index.sh"
+  to = "/install.sh"
   status = 200
