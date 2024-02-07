@@ -2,7 +2,3 @@
   from = "/*"
   to = "/install.sh"
   status = 200
-[[redirects]]
-  from = "http://install.timeplus.com/*"
-  to = "https://install.timeplus.com/install.sh"
-  status = 200
