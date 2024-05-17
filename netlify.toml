@@ -1,4 +1,9 @@
 [[redirects]]
-  from = "/*"
-  to = "/install.sh"
-  status = 200
+from = "/*"
+to = "/install_oss.sh"
+status = 200
+
+[[redirects]]
+from = "/oss/*"
+to = "/install_oss.sh"
+status = 200
