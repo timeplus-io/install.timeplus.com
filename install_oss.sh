@@ -44,7 +44,7 @@ TARGET_FILE="proton"
 
 # Fix me, what if I wanna use this script 3 times?
 # if `proton` not exist, we use proton
-# else 
+# else
 #     1.use `"proton-${LATEST_TAG}-${OS}-${ARCH}"` (by default)
 #     2.overwrite it(only work on manual bash install.sh)
 
@@ -72,7 +72,7 @@ if [ $? -eq 0 ]; then
   echo "
 To interact with Proton:
 1. Start the Proton server(data store in current folder ./proton-data/ ):
-   ./$TARGET_FILE server start
+   ./$TARGET_FILE server
 
 2. In a separate terminal, connect to the server:
    ./$TARGET_FILE client

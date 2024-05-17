@@ -1,9 +1,14 @@
 [[redirects]]
-from = "/*"
+from = "/"
 to = "/install_oss.sh"
 status = 200
 
 [[redirects]]
-from = "/oss/*"
+from = "/oss"
 to = "/install_oss.sh"
+status = 200
+
+[[redirects]]
+from = "/timeplus"
+to = "/install_timeplus.sh"
 status = 200
