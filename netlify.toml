@@ -12,3 +12,8 @@ status = 200
 from = "/timeplus"
 to = "/install_timeplus.sh"
 status = 200
+
+[[redirects]]
+from = "/sp-demo"
+to = "/sp-demo.sh"
+status = 200
