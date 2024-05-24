@@ -1,9 +1,9 @@
 #!/bin/bash
 
-LATEST_TAG=2.1.6.0
+LATEST_TAG=2.1.6.1
 # Identify the system's OS and architecture
 OS=$(uname -s) # Linux or Darwin
-ARCH=$(uname -m) # arm64(on Darwin) or x86_64(on Linux or Darwin)
+ARCH=$(uname -m) # arm64(on Darwin) or x86_64(on Linux or Darwin) or aarch64(on Linux)
 
 # for local debug only
 OS=Linux
