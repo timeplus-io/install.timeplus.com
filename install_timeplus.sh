@@ -1,13 +1,9 @@
 #!/bin/bash
 
-LATEST_TAG=2.1.6.1
+LATEST_TAG=2.1.6.2
 # Identify the system's OS and architecture
 OS=$(uname -s) # Linux or Darwin
 ARCH=$(uname -m) # arm64(on Darwin) or x86_64(on Linux or Darwin) or aarch64(on Linux)
-
-# for local debug only
-OS=Linux
-ARCH=x86_64
 
 # normalize the OS and ARCH
 case $OS in
@@ -38,14 +34,16 @@ DOWNLOAD_URL="https://timeplus.io/dist/timeplus_enterprise/${BINARY_FILE}"
 
 # Download the binary
 echo "Downloading $BINARY_FILE..."
-curl -L -o "$BINARY_FILE" "$DOWNLOAD_URL"
+# Download the file and capture the HTTP status code
+HTTP_STATUS=$(curl -L -w "%{http_code}" -o "$BINARY_FILE" "$DOWNLOAD_URL")
 
-# Check if the download was successful
-if [ $? -eq 0 ]; then
+# Check if the HTTP status code indicates success (200)
+if [ "$HTTP_STATUS" -eq 200 ]; then
   tar xfv $BINARY_FILE
   cd timeplus/bin
   ./timeplus start
 else
-  echo "Download failed or the binary for $OS-$ARCH is not available." >&2
+  rm $BINARY_FILE
+  echo "Bare metal package for $OS-$ARCH is not available yet. Please check Timeplus docs to install via Docker. (HTTP status code: $HTTP_STATUS)" >&2
   exit 1
 fi
