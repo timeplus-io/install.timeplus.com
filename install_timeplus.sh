@@ -1,6 +1,5 @@
 #!/bin/bash
 
-LATEST_TAG=2.1.6.2
 # Identify the system's OS and architecture
 OS=$(uname -s) # Linux or Darwin
 ARCH=$(uname -m) # arm64(on Darwin) or x86_64(on Linux or Darwin) or aarch64(on Linux)
@@ -27,13 +26,13 @@ case $ARCH in
 esac
 
 # Binary file name
-BINARY_FILE="timeplus-enterprise-v${LATEST_TAG}-${OS}-${ARCH}.tar.gz"
+BINARY_FILE="timeplus-enterprise.tar.gz"
 
 # Download URL
-DOWNLOAD_URL="https://timeplus.io/dist/timeplus_enterprise/${BINARY_FILE}"
+DOWNLOAD_URL="https://install.timeplus.com/latest-${OS}-${ARCH}"
 
 # Download the binary
-echo "Downloading $BINARY_FILE..."
+echo "Downloading $DOWNLOAD_URL..."
 # Download the file and capture the HTTP status code
 HTTP_STATUS=$(curl -L -w "%{http_code}" -o "$BINARY_FILE" "$DOWNLOAD_URL")
 
