@@ -20,25 +20,25 @@ status = 200
 
 [[redirects]]
 from = "/stable-linux-amd64"
-to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.1.8.4-linux-amd64.tar.gz"
+to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.1.8.5-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/latest-linux-amd64"
-to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.1.8.4-linux-amd64.tar.gz"
+to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.1.8.5-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/latest-linux-arm64"
-to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.1.8.4-linux-arm64.tar.gz"
+to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.1.8.5-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/latest-darwin-amd64"
-to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.1.8.4-darwin-amd64.tar.gz"
+to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.1.8.5-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/latest-darwin-arm64"
-to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.1.8.3-darwin-arm64.tar.gz"
+to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.1.8.5-darwin-arm64.tar.gz"
 status = 301
