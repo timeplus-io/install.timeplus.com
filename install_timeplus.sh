@@ -29,7 +29,7 @@ esac
 BINARY_FILE="timeplus-enterprise.tar.gz"
 
 # Download URL
-DOWNLOAD_URL="https://install.timeplus.com/latest-${OS}-${ARCH}"
+DOWNLOAD_URL="https://install.timeplus.com/latest-${OS}-${ARCH}.tar.gz"
 
 # Download the binary
 echo "Downloading $DOWNLOAD_URL..."
