@@ -14,12 +14,17 @@ to = "/install_timeplus.sh"
 status = 200
 
 [[redirects]]
+from = "/stable"
+to = "/install_stable.sh"
+status = 200
+
+[[redirects]]
 from = "/sp-demo"
 to = "/sp-demo.sh"
 status = 200
 
 [[redirects]]
-from = "/stable-linux-amd64"
+from = "/stable-linux-amd64.tar.gz"
 to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.0.43.0-linux-amd64.tar.gz"
 status = 301
 
