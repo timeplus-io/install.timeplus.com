@@ -16,7 +16,7 @@ for tool in "${REQUIRED_TOOLS[@]}"; do
 done
 
 # URL to the zip file
-ZIP_URL="https://timeplus.io/dist/timeplus_enterprise/sp-demo-20240522.zip"
+ZIP_URL="https://timeplus.io/dist/timeplus_enterprise/sp-demo-20240529.zip"
 ZIP_FILE="sp-demo.zip"
 INSTALL_DIR="sp-demo"
 
@@ -44,9 +44,9 @@ fi
 cd $INSTALL_DIR
 
 # Start Docker Compose
-echo "Starting Docker Compose...Please access the UI via http://localhost:8000"
+echo "Starting Docker Compose..."
 make start_init
-
+echo "Please access the UI via http://localhost:8000"
 
 # Check if Docker Compose was successful
 if [ $? -ne 0 ]; then
