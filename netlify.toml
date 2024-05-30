@@ -25,7 +25,7 @@ status = 200
 
 [[redirects]]
 from = "/stable-linux-amd64.tar.gz"
-to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.0.43.0-linux-amd64.tar.gz"
+to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.0.43.1-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
