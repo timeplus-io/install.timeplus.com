@@ -30,7 +30,7 @@ status = 301
 
 [[redirects]]
 from = "/latest-linux-amd64.tar.gz"
-to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.1.10.dev-linux-amd64.tar.gz"
+to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.1.11.2-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
