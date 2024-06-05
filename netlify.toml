@@ -1,6 +1,6 @@
 [[redirects]]
 from = "/"
-to = "/install_oss.sh"
+to = "/install_timeplus.sh"
 status = 200
 
 [[redirects]]
