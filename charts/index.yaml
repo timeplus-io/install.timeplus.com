@@ -3,7 +3,32 @@ entries:
   timeplus-enterprise:
   - apiVersion: v2
     appVersion: 2.2.5
-    created: "2024-06-24T15:20:39.897112+08:00"
+    created: "2024-06-25T11:16:53.797773-07:00"
+    description: A Helm chart for deploying a Timeplus enterprise stack.
+    digest: b031a0e399a33b0ac66441b4a3912578994f1ceef933eff64c147617aef12a8f
+    home: https://www.timeplus.com/
+    icon: https://timeplus.io/1_SYMBOL_B.png
+    keywords:
+    - timeplus
+    - realtime
+    - streaming
+    - analytics
+    - monitoring
+    - SQL
+    kubeVersion: '>= 1.25.0-0'
+    maintainers:
+    - email: eng@timeplus.com
+      name: Timeplus engineers
+    name: timeplus-enterprise
+    sources:
+    - https://github.com/timeplus-io/helm-charts
+    type: application
+    urls:
+    - https://install.timeplus.com/charts/timeplus-enterprise-v2.3.2.tgz
+    version: v2.3.2
+  - apiVersion: v2
+    appVersion: 2.2.5
+    created: "2024-06-25T11:16:53.79691-07:00"
     description: A Helm chart for deploying a Timeplus enterprise stack.
     digest: e9aa7d6e6f120529a6ec2f39ed0eb6277619c436faec70c2ac5181c8fd76f88b
     home: https://www.timeplus.com/
@@ -26,4 +51,4 @@ entries:
     urls:
     - https://install.timeplus.com/charts/timeplus-enterprise-2.3.0.tgz
     version: 2.3.0
-generated: "2024-06-24T15:20:39.896253+08:00"
+generated: "2024-06-25T11:16:53.795776-07:00"
