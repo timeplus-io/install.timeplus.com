@@ -38,14 +38,13 @@ HTTP_STATUS=$(curl -L -w "%{http_code}" -o "$BINARY_FILE" "$DOWNLOAD_URL")
 
 # Check if the HTTP status code indicates success (200)
 if [ "$HTTP_STATUS" -eq 200 ]; then
-  echo "Download complete. Extracting package..."
+  echo "\nDownload complete. Extracting package..."
   tar xfv $BINARY_FILE
   cd timeplus/bin
-  echo "Starting Timeplus Enterprise..."
+  echo "\nStarting Timeplus Enterprise..."
   ./timeplus start
-  echo "Successfully downloaded and started Timeplus Enterprise."
-  echo "You can visit http://localhost:8000 or access the SQL client via 'timeplus/bin/timeplusd client -h 127.0.0.1'"
-  echo "To learn more, please check the documentation at https://docs.timeplus.com/singlenode_install"
+  echo "\nSuccessfully downloaded and started Timeplus Enterprise."
+  echo "Please check the documentation at https://docs.timeplus.com/timeplus-self-host"
 else
   rm $BINARY_FILE
   echo "Bare metal package for $OS-$ARCH is not available yet. Please check Timeplus docs to install via Docker. (HTTP status code: $HTTP_STATUS)" >&2
