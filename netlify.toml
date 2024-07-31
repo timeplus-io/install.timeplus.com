@@ -54,20 +54,20 @@ status = 301
 
 [[redirects]]
 from = "/latest-linux-amd64.tar.gz"
-to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.3.5-linux-amd64.tar.gz"
+to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.4.15-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/latest-linux-arm64.tar.gz"
-to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.3.5-linux-arm64.tar.gz"
+to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.4.15-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/latest-darwin-amd64.tar.gz"
-to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.3.5-darwin-amd64.tar.gz"
+to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.4.15-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/latest-darwin-arm64.tar.gz"
-to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.3.5-darwin-arm64.tar.gz"
+to = "https://timeplus.io/dist/timeplus_enterprise/timeplus-enterprise-v2.4.15-darwin-arm64.tar.gz"
 status = 301
