@@ -58,7 +58,7 @@ if [ -f "$TARGET_FILE" ]; then
 fi
 
 # Download URL
-DOWNLOAD_URL="https://github.com/$USER_REPO/releases/download/${LATEST_TAG}/${BINARY_FILE}"
+DOWNLOAD_URL="https://d.timeplus.com/${BINARY_FILE}"
 
 # Download the binary
 echo "Downloading $TARGET_FILE..."
