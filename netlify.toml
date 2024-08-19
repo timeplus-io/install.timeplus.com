@@ -32,22 +32,22 @@ status = 200
 
 [[redirects]]
 from = "/stable-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.16-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.4.19-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/stable-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.16-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.4.19-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/stable-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.16-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.4.19-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/stable-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.16-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.4.19-darwin-arm64.tar.gz"
 status = 301
 
 # 4 packages for latest builds (not so stable)
