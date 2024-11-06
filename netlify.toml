@@ -5,13 +5,13 @@ status = 200
 
 [[redirects]]
 from = "/"
-to = "/stable"
-status = 301
+to = "/install_2.4.sh"
+status = 200
 
 [[redirects]]
 from = "/timeplus"
-to = "/stable"
-status = 301
+to = "/install_2.4.sh"
+status = 200
 
 [[redirects]]
 from = "/stable"
