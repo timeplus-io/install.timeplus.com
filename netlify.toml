@@ -5,17 +5,17 @@ status = 200
 
 [[redirects]]
 from = "/"
-to = "/install_stable.sh"
+to = "/stable"
 status = 200
 
 [[redirects]]
 from = "/timeplus"
-to = "/install_stable.sh"
+to = "/stable"
 status = 200
 
 [[redirects]]
 from = "/stable"
-to = "/install_stable.sh"
+to = "/install_2.4.sh"
 status = 200
 
 [[redirects]]
@@ -38,29 +38,7 @@ from = "/sp-demo"
 to = "/sp-demo.sh"
 status = 200
 
-# 4 packages for stable builds
-
-[[redirects]]
-from = "/stable-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.23-linux-amd64.tar.gz"
-status = 301
-
-[[redirects]]
-from = "/stable-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.23-linux-arm64.tar.gz"
-status = 301
-
-[[redirects]]
-from = "/stable-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.23-darwin-amd64.tar.gz"
-status = 301
-
-[[redirects]]
-from = "/stable-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.23-darwin-arm64.tar.gz"
-status = 301
-
-# 4 packages for latest builds (not so stable)
+# 4 packages for latest builds (not so stable). We will change latest builds to RC.
 
 [[redirects]]
 from = "/latest-linux-amd64.tar.gz"
