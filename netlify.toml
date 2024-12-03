@@ -5,17 +5,17 @@ status = 200
 
 [[redirects]]
 from = "/"
-to = "/install_2.4.sh"
+to = "/install_2.5.sh"
 status = 200
 
 [[redirects]]
 from = "/timeplus"
-to = "/install_2.4.sh"
+to = "/install_2.5.sh"
 status = 200
 
 [[redirects]]
 from = "/stable"
-to = "/install_2.4.sh"
+to = "/install_2.5.sh"
 status = 200
 
 [[redirects]]
@@ -42,44 +42,44 @@ status = 200
 
 [[redirects]]
 from = "/latest-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.23-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/latest-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.23-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/latest-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.23-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/latest-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.23-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-darwin-arm64.tar.gz"
 status = 301
 
 # 4 packages for 2.5 builds
 
 [[redirects]]
 from = "/2.5-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.9-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.5-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.9-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.5-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.9-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.5-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.9-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-darwin-arm64.tar.gz"
 status = 301
 
 # 4 packages for 2.4 builds
