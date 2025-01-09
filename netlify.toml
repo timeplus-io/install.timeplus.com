@@ -43,25 +43,25 @@ status = 200
 
 [[redirects]]
 from = "/stable-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.12-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/stable-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.12-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/stable-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.12-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/stable-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.12-darwin-arm64.tar.gz"
 status = 301
 
-# 4 packages for latest builds (not so stable). We will change latest builds to RC.
+# 4 packages for latest builds (not so stable). We will change /latest to /preview
 
 [[redirects]]
 from = "/latest-linux-amd64.tar.gz"
@@ -87,22 +87,22 @@ status = 301
 
 [[redirects]]
 from = "/2.5-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.12-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.5-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.12-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.5-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.12-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.5-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.5.12-darwin-arm64.tar.gz"
 status = 301
 
 # 4 packages for 2.4 builds
