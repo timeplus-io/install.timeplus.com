@@ -16,7 +16,7 @@ for tool in "${REQUIRED_TOOLS[@]}"; do
 done
 
 # URL to the zip file
-ZIP_URL="https://d.timeplus.com/sp-demo-20241025.zip"
+ZIP_URL="https://d.timeplus.com/sp-demo-20250115.zip"
 ZIP_FILE="sp-demo.zip"
 INSTALL_DIR="sp-demo"
 
