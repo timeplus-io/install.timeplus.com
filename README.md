@@ -14,9 +14,9 @@ or
 curl https://install.timeplus.com/stable | sh
 ```
 
-## Install Timeplus Enterprise (latest release)
+## Install Timeplus Enterprise (preview release)
 ```bash
-curl https://install.timeplus.com/latest | sh
+curl https://install.timeplus.com/preview | sh
 ```
 
 ## Install Timeplus Enterprise Stream Processing Demo (docker compose)
