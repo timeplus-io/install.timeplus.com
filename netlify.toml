@@ -34,8 +34,8 @@ to = "/install_2.4.sh"
 status = 200
 
 [[redirects]]
-from = "/latest"
-to = "/install_timeplus.sh"
+from = "/preview"
+to = "/install_preview.sh"
 status = 200
 
 [[redirects]]
@@ -66,26 +66,26 @@ from = "/stable-darwin-arm64.tar.gz"
 to = "https://d.timeplus.com/timeplus-enterprise-v2.6.0-darwin-arm64.tar.gz"
 status = 301
 
-# 4 packages for latest builds (not so stable). We will change /latest to /preview
+# 4 packages for tech preview builds (not so stable)
 
 [[redirects]]
-from = "/latest-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-linux-amd64.tar.gz"
+from = "/preview-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.7.0-rc.2-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
-from = "/latest-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-linux-arm64.tar.gz"
+from = "/preview-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.7.0-rc.2-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
-from = "/latest-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-darwin-amd64.tar.gz"
+from = "/preview-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.7.0-rc.2-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
-from = "/latest-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.5.11-darwin-arm64.tar.gz"
+from = "/preview-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.7.0-rc.2-darwin-arm64.tar.gz"
 status = 301
 
 # 4 packages for 2.6 builds

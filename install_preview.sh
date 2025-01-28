@@ -29,7 +29,7 @@ esac
 BINARY_FILE="timeplus-enterprise.tar.gz"
 
 # Download URL
-DOWNLOAD_URL="https://install.timeplus.com/latest-${OS}-${ARCH}.tar.gz"
+DOWNLOAD_URL="https://install.timeplus.com/preview-${OS}-${ARCH}.tar.gz"
 
 # Download the binary
 echo "Downloading $DOWNLOAD_URL..."
@@ -41,7 +41,7 @@ if [ "$HTTP_STATUS" -eq 200 ]; then
   echo "\nDownload complete. Extracting package..."
   tar xfv $BINARY_FILE
   cd timeplus/bin
-  echo "\nStarting Timeplus Enterprise..."
+  echo "\nStarting Timeplus Enterprise (Technical Preview)..."
   ./timeplus start
   echo "\nSuccessfully downloaded and started Timeplus Enterprise."
   echo "Please check the documentation at https://docs.timeplus.com/timeplus-self-host"
