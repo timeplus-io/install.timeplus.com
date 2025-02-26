@@ -70,22 +70,22 @@ status = 301
 
 [[redirects]]
 from = "/preview-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.0-rc.5-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.7.0-rc.6-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/preview-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.0-rc.5-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.7.0-rc.6-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/preview-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.0-rc.5-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.7.0-rc.6-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/preview-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.0-rc.5-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.7.0-rc.6-darwin-arm64.tar.gz"
 status = 301
 
 # 4 packages for 2.6 builds
