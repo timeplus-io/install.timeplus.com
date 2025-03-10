@@ -15,7 +15,7 @@ status = 200
 
 [[redirects]]
 from = "/stable"
-to = "/install_2.6.sh"
+to = "/install_2.7.sh"
 status = 200
 
 [[redirects]]
