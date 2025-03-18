@@ -75,22 +75,23 @@ status = 301
 
 [[redirects]]
 from = "/preview-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.1-rc.3-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.0-rc.1-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/preview-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.1-rc.3-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.0-rc.1-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/preview-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.1-rc.3-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.0-rc.1-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/preview-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.1-rc.3-darwin-arm64.tar.gz"
+# special case, rc1 doesn't include darwin-arm64
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.0-rc.0-darwin-arm64.tar.gz"
 status = 301
 
 # 4 packages for 2.7 builds
