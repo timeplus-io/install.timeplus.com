@@ -191,3 +191,8 @@ status = 301
 from = "/iceberg_preview2/timeplusd"
 to = "https://timeplus.io/downloads/iceberg20250320/timeplusd"
 status = 301
+
+[[redirects]]
+from = "/iceberg_preview3/timeplusd"
+to = "https://timeplus.io/downloads/iceberg20250323/timeplusd"
+status = 301
