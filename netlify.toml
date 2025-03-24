@@ -75,23 +75,22 @@ status = 301
 
 [[redirects]]
 from = "/preview-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.8.0-rc.1-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.0-rc.4-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/preview-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.8.0-rc.1-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.0-rc.4-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/preview-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.8.0-rc.1-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.0-rc.4-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/preview-darwin-arm64.tar.gz"
-# special case, rc1 doesn't include darwin-arm64
-to = "https://d.timeplus.com/timeplus-enterprise-v2.8.0-rc.0-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.0-rc.4-darwin-arm64.tar.gz"
 status = 301
 
 # 4 packages for 2.7 builds
@@ -183,16 +182,11 @@ to = "https://d.timeplus.com/timeplus-enterprise-v2.4.26-darwin-arm64.tar.gz"
 status = 301
 
 [[redirects]]
-from = "/iceberg_preview1/timeplusd"
-to = "https://timeplus.io/downloads/tpiceberg/timeplusd"
-status = 301
-
-[[redirects]]
-from = "/iceberg_preview2/timeplusd"
-to = "https://timeplus.io/downloads/iceberg20250320/timeplusd"
-status = 301
-
-[[redirects]]
 from = "/iceberg_preview3/timeplusd"
 to = "https://timeplus.io/downloads/iceberg20250323/timeplusd"
+status = 301
+
+[[redirects]]
+from = "/iceberg_preview4/timeplusd"
+to = "https://timeplus.io/downloads/iceberg20250324/timeplusd"
 status = 301
