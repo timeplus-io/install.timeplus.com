@@ -63,88 +63,88 @@ status = 200
 
 [[redirects]]
 from = "/stable-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.7-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.1-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/stable-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.7-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.1-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/stable-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.7-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.1-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/stable-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.7-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.1-darwin-arm64.tar.gz"
 status = 301
 
 # 4 packages for tech preview builds (not so stable)
 
 [[redirects]]
 from = "/preview-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.9.0-rc.2-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.9.0-preview.0-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/preview-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.9.0-rc.2-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.9.0-preview.0-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/preview-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.9.0-rc.2-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.9.0-preview.0-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/preview-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.9.0-rc.2-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.9.0-preview.0-darwin-arm64.tar.gz"
 status = 301
 
 # 4 packages for 2.8 builds
 
 [[redirects]]
 from = "/2.8-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.8.1-rc.9-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.1-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.8-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.8.1-rc.9-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.1-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.8-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.8.1-rc.9-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.1-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.8-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.8.1-rc.9-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.8.1-darwin-arm64.tar.gz"
 status = 301
 
 # 4 packages for 2.7 builds
 
 [[redirects]]
 from = "/2.7-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.7-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.7.8-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.7-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.7-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.7.8-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.7-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.7-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.7.8-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.7-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.7.7-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.7.8-darwin-arm64.tar.gz"
 status = 301
 
 # 4 packages for 2.6 builds
