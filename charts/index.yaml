@@ -2,8 +2,33 @@ apiVersion: v1
 entries:
   timeplus-enterprise:
   - apiVersion: v2
+    appVersion: 2.9.0-rc.6
+    created: "2025-06-12T18:52:51.676351098Z"
+    description: Helm chart for deploying a cluster of Timeplus Enterprise.
+    digest: bdc00b53b7764b25fb9f507b0e4f221e4e823f2f47850619b295c6a3838b4e80
+    home: https://www.timeplus.com/
+    icon: https://timeplus.io/1_SYMBOL_B.png
+    keywords:
+    - timeplus
+    - realtime
+    - streaming
+    - analytics
+    - monitoring
+    - SQL
+    kubeVersion: '>= 1.25.0-0'
+    maintainers:
+    - email: eng@timeplus.com
+      name: Timeplus engineers
+    name: timeplus-enterprise
+    sources:
+    - https://github.com/timeplus-io/proton
+    type: application
+    urls:
+    - https://d.timeplus.com/charts/timeplus-enterprise-v8.0.3.tgz
+    version: v8.0.3
+  - apiVersion: v2
     appVersion: 2.8.1
-    created: "2025-06-06T03:54:37.214543151Z"
+    created: "2025-06-12T18:52:51.675110238Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: dcb7734c6e5f113362ed9c89f213f3cce8b860082b0398d7691a36a79c02bc00
     home: https://www.timeplus.com/
@@ -28,7 +53,7 @@ entries:
     version: v7.0.4
   - apiVersion: v2
     appVersion: 2.7.9
-    created: "2025-06-06T03:54:37.20472503Z"
+    created: "2025-06-12T18:52:51.665308291Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: c7a4bc0793f5cd0a4f4e18ac398186c5fa932757f3217caa91edeb4015574d0f
     home: https://www.timeplus.com/
@@ -53,7 +78,7 @@ entries:
     version: v6.0.18
   - apiVersion: v2
     appVersion: 2.7.8
-    created: "2025-06-06T03:54:37.203670982Z"
+    created: "2025-06-12T18:52:51.664280359Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 1aae9f0bbf1ef6270148fa80bb41737700a80b7389cfa9f0df0499271ce830e8
     home: https://www.timeplus.com/
@@ -78,7 +103,7 @@ entries:
     version: v6.0.16
   - apiVersion: v2
     appVersion: 2.7.7
-    created: "2025-06-06T03:54:37.202412672Z"
+    created: "2025-06-12T18:52:51.663215047Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 9210f11da2e49aedd9f04dc2501d4ee4250b31e44add8d3e2424517d861ed76e
     home: https://www.timeplus.com/
@@ -103,7 +128,7 @@ entries:
     version: v6.0.12
   - apiVersion: v2
     appVersion: 2.7.6
-    created: "2025-06-06T03:54:37.200196886Z"
+    created: "2025-06-12T18:52:51.660754217Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 7702ce4a423ecd6a92cc056f3813b2fc427bdc280c8979400d4f377d0aad72d9
     home: https://www.timeplus.com/
@@ -128,7 +153,7 @@ entries:
     version: v6.0.11
   - apiVersion: v2
     appVersion: 2.7.5
-    created: "2025-06-06T03:54:37.21344517Z"
+    created: "2025-06-12T18:52:51.674038935Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 3c8ad1b0fc1d1e0a2b4f7398ba92f6a0f9fc3ad52bf3e8cdf306256c7dbcd54e
     home: https://www.timeplus.com/
@@ -153,7 +178,7 @@ entries:
     version: v6.0.9
   - apiVersion: v2
     appVersion: 2.7.4
-    created: "2025-06-06T03:54:37.21239561Z"
+    created: "2025-06-12T18:52:51.67304703Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 24e6bc53f9f65ebf5922cde977d72192a714af6d7524f9bddd5f089a1ddbce01
     home: https://www.timeplus.com/
@@ -178,7 +203,7 @@ entries:
     version: v6.0.8
   - apiVersion: v2
     appVersion: 2.7.3
-    created: "2025-06-06T03:54:37.211349256Z"
+    created: "2025-06-12T18:52:51.672041189Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 8d7aa2231f1a8822b996d96788f939c8deece22e4a895a59268ffde70c013d9e
     home: https://www.timeplus.com/
@@ -203,7 +228,7 @@ entries:
     version: v6.0.7
   - apiVersion: v2
     appVersion: 2.7.2
-    created: "2025-06-06T03:54:37.209241319Z"
+    created: "2025-06-12T18:52:51.670988231Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 9e2c1718d0f8b872106f3395489557f99cce995306a01c6746fc1700f3609942
     home: https://www.timeplus.com/
@@ -228,7 +253,7 @@ entries:
     version: v6.0.6
   - apiVersion: v2
     appVersion: 2.7.2
-    created: "2025-06-06T03:54:37.207734251Z"
+    created: "2025-06-12T18:52:51.66846849Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: ca41c41b9a50388e599f763cd1af77b92e83fc576844608b1ce4fd39a2f0151b
     home: https://www.timeplus.com/
@@ -253,7 +278,7 @@ entries:
     version: v6.0.5
   - apiVersion: v2
     appVersion: 2.7.1
-    created: "2025-06-06T03:54:37.206726518Z"
+    created: "2025-06-12T18:52:51.667470414Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 40986a38af19eb38af9bf35a085dc6bdda6dce9eee24cf37cd794e9cd104ca6d
     home: https://www.timeplus.com/
@@ -278,7 +303,7 @@ entries:
     version: v6.0.4
   - apiVersion: v2
     appVersion: 2.7.0
-    created: "2025-06-06T03:54:37.205721592Z"
+    created: "2025-06-12T18:52:51.666323489Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: e8ebd46778b7e7bec767a9ff0cce17d2b8e42d4d3443bd427e88f3d29ce6adc3
     home: https://www.timeplus.com/
@@ -303,7 +328,7 @@ entries:
     version: v6.0.3
   - apiVersion: v2
     appVersion: 2.6.8
-    created: "2025-06-06T03:54:37.194137376Z"
+    created: "2025-06-12T18:52:51.654511476Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 9d8e039c2386c461ab9f1c3952f33d83a80813423a840887e68d6f0fff886b24
     home: https://www.timeplus.com/
@@ -328,7 +353,7 @@ entries:
     version: v5.0.13
   - apiVersion: v2
     appVersion: 2.6.7
-    created: "2025-06-06T03:54:37.192593292Z"
+    created: "2025-06-12T18:52:51.652502739Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 4ec7221bdd128696fdcf8a70903088547c5cc5c220f573e5534747190bdd622f
     home: https://www.timeplus.com/
@@ -353,7 +378,7 @@ entries:
     version: v5.0.12
   - apiVersion: v2
     appVersion: 2.6.6
-    created: "2025-06-06T03:54:37.190555839Z"
+    created: "2025-06-12T18:52:51.651593479Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 5a809cb29bce9b6db337335db2b20569ec00f38a96cc2591db63963620ecec4c
     home: https://www.timeplus.com/
@@ -378,7 +403,7 @@ entries:
     version: v5.0.11
   - apiVersion: v2
     appVersion: 2.6.5
-    created: "2025-06-06T03:54:37.18961906Z"
+    created: "2025-06-12T18:52:51.650660845Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 85359ffbd1162373dd7ad0f8f397b6e6ea3561ab4bcc0e05520a43e13b4f7219
     home: https://www.timeplus.com/
@@ -403,7 +428,7 @@ entries:
     version: v5.0.10
   - apiVersion: v2
     appVersion: 2.6.4
-    created: "2025-06-06T03:54:37.198751483Z"
+    created: "2025-06-12T18:52:51.659732456Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 049ab363451b0ad50829adb44608ae30c5567c791dfb68fdc5bd6e4086309685
     home: https://www.timeplus.com/
@@ -428,7 +453,7 @@ entries:
     version: v5.0.9
   - apiVersion: v2
     appVersion: 2.6.3
-    created: "2025-06-06T03:54:37.197847715Z"
+    created: "2025-06-12T18:52:51.658792418Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 6178b71731bacedc227626ef28434a1b2863a7c02ef32db1dc0f317aefd5c9da
     home: https://www.timeplus.com/
@@ -453,7 +478,7 @@ entries:
     version: v5.0.8
   - apiVersion: v2
     appVersion: 2.6.2
-    created: "2025-06-06T03:54:37.196947023Z"
+    created: "2025-06-12T18:52:51.657891464Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: e5b4763d0b7c8954bb72528c61eea78fe4bb7305f6e1466bfe28103a82ee429e
     home: https://www.timeplus.com/
@@ -478,7 +503,7 @@ entries:
     version: v5.0.7
   - apiVersion: v2
     appVersion: 2.6.1
-    created: "2025-06-06T03:54:37.195987401Z"
+    created: "2025-06-12T18:52:51.656986512Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 36719ba06bafe4172c405b36ac7786981f319efa1d71d22ad7d731788982e330
     home: https://www.timeplus.com/
@@ -503,7 +528,7 @@ entries:
     version: v5.0.6
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2025-06-06T03:54:37.195063125Z"
+    created: "2025-06-12T18:52:51.655967948Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 8725395520a537f39f8b5201a6abcdce2c01ed362d5eeb10d5e1d0d14468cdff
     home: https://www.timeplus.com/
@@ -528,7 +553,7 @@ entries:
     version: v5.0.5
   - apiVersion: v2
     appVersion: 2.5.12
-    created: "2025-06-06T03:54:37.188695745Z"
+    created: "2025-06-12T18:52:51.649751565Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: a6db2a7e2f344c064d431f40aa84125daca0774ea9f0d817210e576cadfac915
     home: https://www.timeplus.com/
@@ -553,7 +578,7 @@ entries:
     version: v4.0.11
   - apiVersion: v2
     appVersion: 2.5.11
-    created: "2025-06-06T03:54:37.187823166Z"
+    created: "2025-06-12T18:52:51.648863074Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: ff63547c02731ee5468b4f2bb321476eec91be8a4c43340ac53899a8ff294886
     home: https://www.timeplus.com/
@@ -578,7 +603,7 @@ entries:
     version: v4.0.10
   - apiVersion: v2
     appVersion: 2.4.26
-    created: "2025-06-06T03:54:37.181754147Z"
+    created: "2025-06-12T18:52:51.642637894Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 91fda2094b03c7b36d55ac32d4e6b06dcaef9a33c31cb9a8f8ab2adf4e11f3fb
     home: https://www.timeplus.com/
@@ -603,7 +628,7 @@ entries:
     version: v3.0.10
   - apiVersion: v2
     appVersion: 2.4.25
-    created: "2025-06-06T03:54:37.186960755Z"
+    created: "2025-06-12T18:52:51.6479147Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: c30d7de5f3779fc38029399ad53ec8a4e002eb267bf3c3353c3e556c20009d5b
     home: https://www.timeplus.com/
@@ -628,7 +653,7 @@ entries:
     version: v3.0.9
   - apiVersion: v2
     appVersion: 2.4.23
-    created: "2025-06-06T03:54:37.18605866Z"
+    created: "2025-06-12T18:52:51.646395642Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 8bf3585863e9e35b8ca1e39e75d609c4b8a296b78e23992e629a2b625dd54055
     home: https://www.timeplus.com/
@@ -653,7 +678,7 @@ entries:
     version: v3.0.7
   - apiVersion: v2
     appVersion: 2.4.25
-    created: "2025-06-06T03:54:37.185104388Z"
+    created: "2025-06-12T18:52:51.644515765Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 9dd9b971ddad490f14bb2acdc31dd6ac31a2bcd591deaac38ebc7c47197e081f
     home: https://www.timeplus.com/
@@ -678,7 +703,7 @@ entries:
     version: v3.0.3
   - apiVersion: v2
     appVersion: 2.4.18
-    created: "2025-06-06T03:54:37.182897352Z"
+    created: "2025-06-12T18:52:51.643605063Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: b3611d25424ac4dab076bb91de25d26e4ee224ed283ac60dd68c7947f7c380fd
     home: https://www.timeplus.com/
@@ -703,7 +728,7 @@ entries:
     version: v3.0.2
   - apiVersion: v2
     appVersion: 2.4.16
-    created: "2025-06-06T03:54:37.180843536Z"
+    created: "2025-06-12T18:52:51.641720659Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: 84f2c43cc7b363d845efb9bf16115461c7deaaac8c836ba528a8a55d4e33096d
     home: https://www.timeplus.com/
@@ -728,7 +753,7 @@ entries:
     version: v3.0.0
   - apiVersion: v2
     appVersion: 2.3.21
-    created: "2025-06-06T03:54:37.179908701Z"
+    created: "2025-06-12T18:52:51.640794678Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: a7153c980361f0cd6b03f35a20897f017feed5d8cfacd19e84c1e37fd05341a1
     home: https://www.timeplus.com/
@@ -753,7 +778,7 @@ entries:
     version: v2.4.16
   - apiVersion: v2
     appVersion: 2.3.20
-    created: "2025-06-06T03:54:37.178922248Z"
+    created: "2025-06-12T18:52:51.639786223Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
     digest: e84c65c0fecbd2bbcb36258c5645bf61fcf66a10355acd7d697a25d42bd75644
     home: https://www.timeplus.com/
@@ -776,4 +801,4 @@ entries:
     urls:
     - https://d.timeplus.com/charts/timeplus-enterprise-v2.4.15.tgz
     version: v2.4.15
-generated: "2025-06-06T03:54:37.177844425Z"
+generated: "2025-06-12T18:52:51.637026713Z"
