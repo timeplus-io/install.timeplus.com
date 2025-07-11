@@ -527,6 +527,31 @@ entries:
     - https://d.timeplus.com/charts/timeplus-enterprise-v5.0.5.tgz
     version: v5.0.5
   - apiVersion: v2
+    appVersion: 2.5.13
+    created: "2025-07-06T03:54:37.188695745Z"
+    description: Helm chart for deploying a cluster of Timeplus Enterprise.
+    digest: a6db2a7e2f344c064d431f40aa84125daca0774ea9f0d817210e576cadfac915
+    home: https://www.timeplus.com/
+    icon: https://timeplus.io/1_SYMBOL_B.png
+    keywords:
+    - timeplus
+    - realtime
+    - streaming
+    - analytics
+    - monitoring
+    - SQL
+    kubeVersion: '>= 1.25.0-0'
+    maintainers:
+    - email: eng@timeplus.com
+      name: Timeplus engineers
+    name: timeplus-enterprise
+    sources:
+    - https://github.com/timeplus-io/proton
+    type: application
+    urls:
+    - https://d.timeplus.com/charts/timeplus-enterprise-v4.0.12.tgz
+    version: v4.0.12  
+  - apiVersion: v2
     appVersion: 2.5.12
     created: "2025-06-06T03:54:37.188695745Z"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
