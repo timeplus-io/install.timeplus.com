@@ -528,9 +528,9 @@ entries:
     version: v5.0.5
   - apiVersion: v2
     appVersion: 2.5.13
-    created: "2025-07-06T03:54:37.188695745Z"
+    created: "2025-07-11T10:13:47.753458+08:00"
     description: Helm chart for deploying a cluster of Timeplus Enterprise.
-    digest: a6db2a7e2f344c064d431f40aa84125daca0774ea9f0d817210e576cadfac915
+    digest: 6e0b80a015de67f2a8d480aa168864507491e11f3ab7a196bb826a7516e9ad78
     home: https://www.timeplus.com/
     icon: https://timeplus.io/1_SYMBOL_B.png
     keywords:
@@ -550,7 +550,7 @@ entries:
     type: application
     urls:
     - https://d.timeplus.com/charts/timeplus-enterprise-v4.0.12.tgz
-    version: v4.0.12  
+    version: v4.0.12
   - apiVersion: v2
     appVersion: 2.5.12
     created: "2025-06-06T03:54:37.188695745Z"
