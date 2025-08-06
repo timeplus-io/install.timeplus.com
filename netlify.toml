@@ -217,20 +217,20 @@ status = 301
 
 [[redirects]]
 from = "/2.4-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.26-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.4.27-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.4-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.26-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.4.27-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.4-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.26-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.4.27-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/2.4-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.4.26-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v2.4.27-darwin-arm64.tar.gz"
 status = 301
