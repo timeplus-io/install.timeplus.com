@@ -108,6 +108,28 @@ from = "/preview-darwin-arm64.tar.gz"
 to = "https://d.timeplus.com/timeplus-enterprise-v3.0.1-preview.2-darwin-arm64.tar.gz"
 status = 301
 
+# 4 packages for 3.0 builds
+
+[[redirects]]
+from = "/3.0-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v3.0.1-linux-amd64.tar.gz"
+status = 301
+
+[[redirects]]
+from = "/3.0-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v3.0.1-linux-arm64.tar.gz"
+status = 301
+
+[[redirects]]
+from = "/3.0-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v3.0.1-darwin-amd64.tar.gz"
+status = 301
+
+[[redirects]]
+from = "/3.0-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v3.0.1-darwin-arm64.tar.gz"
+status = 301
+
 # 4 packages for 2.9 builds
 
 [[redirects]]
