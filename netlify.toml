@@ -63,22 +63,22 @@ status = 200
 
 [[redirects]]
 from = "/stable-linux-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.8.3-linux-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v3.0.1-linux-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/stable-linux-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.8.3-linux-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v3.0.1-linux-arm64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/stable-darwin-amd64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.8.3-darwin-amd64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v3.0.1-darwin-amd64.tar.gz"
 status = 301
 
 [[redirects]]
 from = "/stable-darwin-arm64.tar.gz"
-to = "https://d.timeplus.com/timeplus-enterprise-v2.8.3-darwin-arm64.tar.gz"
+to = "https://d.timeplus.com/timeplus-enterprise-v3.0.1-darwin-arm64.tar.gz"
 status = 301
 
 # 4 packages for tech preview builds (not so stable)
