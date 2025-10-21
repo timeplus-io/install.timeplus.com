@@ -5,17 +5,22 @@ status = 200
 
 [[redirects]]
 from = "/"
-to = "/install_2.8.sh"
+to = "/install_3.0.sh"
 status = 200
 
 [[redirects]]
 from = "/timeplus"
-to = "/install_2.8.sh"
+to = "/install_3.0.sh"
 status = 200
 
 [[redirects]]
 from = "/stable"
-to = "/install_2.8.sh"
+to = "/install_3.0.sh"
+status = 200
+
+[[redirects]]
+from = "/3.0"
+to = "/install_3.0.sh"
 status = 200
 
 [[redirects]]
