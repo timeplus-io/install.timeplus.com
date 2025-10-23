@@ -1,13 +1,15 @@
 #!/bin/bash
 
+set -euo pipefail
+
 # GitHub user/repo
 USER_REPO="timeplus-io/proton"
 
 # Fetch the latest release tag from GitHub
-LATEST_TAG=$(curl -s https://api.github.com/repos/$USER_REPO/releases/latest | grep 'tag_name' | cut -d\" -f4)
+LATEST_TAG=$(curl -fsSL https://api.github.com/repos/$USER_REPO/releases/latest | grep 'tag_name' | cut -d\" -f4 || true)
 
 # Check if the tag is empty
-if [ -z "$LATEST_TAG" ]; then
+if [ -z "${LATEST_TAG:-}" ]; then
   echo "Failed to fetch the latest release tag from GitHub." >&2
   exit 1
 fi
@@ -36,9 +38,13 @@ case $ARCH in
     ;;
 esac
 
-# Binary file name
-BINARY_FILE="proton-${LATEST_TAG}-${OS}-${ARCH}"
+NAME="proton-${LATEST_TAG}-${OS}-${ARCH}"
+TARBALL="${NAME}.tar.gz"
 TARGET_FILE="proton"
+
+# Primary and fallback download locations
+PRIMARY_BASE="https://d.timeplus.com"
+FALLBACK_BASE="https://github.com/${USER_REPO}/releases/download/${LATEST_TAG}"
 
 # Check if the proton file exists
 
@@ -53,22 +59,63 @@ if [ -f "$TARGET_FILE" ]; then
   if [ "$answer" = "y" -o "$answer" = "Y" ]; then
     TARGET_FILE="proton"
   else
-    TARGET_FILE=$BINARY_FILE
+    TARGET_FILE=$NAME
   fi
 fi
 
-# Download URL
-DOWNLOAD_URL="https://d.timeplus.com/${BINARY_FILE}"
+# Helpers
+command -v curl >/dev/null 2>&1 || { echo "curl is required" >&2; exit 1; }
 
-# Download the binary
-echo "Downloading $TARGET_FILE..."
-curl -L -o "$TARGET_FILE" "$DOWNLOAD_URL"
+tmpdir=$(mktemp -d)
+cleanup() { rm -rf "$tmpdir"; }
+trap cleanup EXIT
 
-# Check if the download was successful
-if [ $? -eq 0 ]; then
-  # Make the file executable
+download_to() {
+  # $1=url $2=dest
+  curl -fL --retry 3 --retry-delay 2 -o "$2" "$1"
+}
+
+extract_tarball() {
+  # $1=tar.gz path, extracts NAME to $tmpdir
+  if command -v tar >/dev/null 2>&1; then
+    tar -xzf "$1" -C "$tmpdir"
+    return 0
+  else
+    return 1
+  fi
+}
+
+echo "Detected: ${OS}-${ARCH}, latest: ${LATEST_TAG}"
+
+SUCCESS=0
+
+echo "Attempting tarball from primary CDN: ${PRIMARY_BASE}/${TARBALL}"
+if download_to "${PRIMARY_BASE}/${TARBALL}" "$tmpdir/${TARBALL}" && extract_tarball "$tmpdir/${TARBALL}" && [ -f "$tmpdir/${NAME}" ]; then
+  mv "$tmpdir/${NAME}" "$TARGET_FILE"
+  SUCCESS=1
+else
+  echo "Tarball not available on primary. Trying raw binary: ${PRIMARY_BASE}/${NAME}"
+  if download_to "${PRIMARY_BASE}/${NAME}" "$tmpdir/${NAME}" && [ -s "$tmpdir/${NAME}" ]; then
+    mv "$tmpdir/${NAME}" "$TARGET_FILE"
+    SUCCESS=1
+  else
+    echo "Primary CDN failed. Trying GitHub release assets..."
+    if download_to "${FALLBACK_BASE}/${TARBALL}" "$tmpdir/${TARBALL}" && extract_tarball "$tmpdir/${TARBALL}" && [ -f "$tmpdir/${NAME}" ]; then
+      mv "$tmpdir/${NAME}" "$TARGET_FILE"
+      SUCCESS=1
+    else
+      echo "GitHub tarball unavailable. Trying GitHub raw binary: ${FALLBACK_BASE}/${NAME}"
+      if download_to "${FALLBACK_BASE}/${NAME}" "$tmpdir/${NAME}" && [ -s "$tmpdir/${NAME}" ]; then
+        mv "$tmpdir/${NAME}" "$TARGET_FILE"
+        SUCCESS=1
+      fi
+    fi
+  fi
+fi
+
+if [ "$SUCCESS" -eq 1 ]; then
   chmod u+x "$TARGET_FILE"
-  echo "Download and permission setting completed: $TARGET_FILE"
+  echo "Download complete: $TARGET_FILE"
   echo "
 To interact with Proton:
 1. Start the Proton server(data store in current folder ./proton-data/ ):
