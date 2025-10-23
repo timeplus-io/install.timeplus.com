@@ -1,6 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 
-set -euo pipefail
+# Be POSIX-sh compatible; enable strict mode where available
+set -eu
+# pipefail is not POSIX; only enable if supported
+(set -o pipefail) 2>/dev/null || true
 
 # GitHub user/repo
 USER_REPO="timeplus-io/proton"
@@ -24,7 +27,7 @@ case $ARCH in
     ARCH="x86_64"
     ;;
   "arm64" | "aarch64")
-    if [ "$OS" == "Darwin" ]; then
+    if [ "$OS" = "Darwin" ]; then
       ARCH="arm64"
     else
       ARCH="aarch64"
@@ -55,12 +58,13 @@ FALLBACK_BASE="https://github.com/${USER_REPO}/releases/download/${LATEST_TAG}"
 #     2.overwrite it(only work on manual bash install.sh)
 
 if [ -f "$TARGET_FILE" ]; then
-  read -p "'proton' file already exists. Do you want to overwrite it? (y/n): " answer
-  if [ "$answer" = "y" -o "$answer" = "Y" ]; then
-    TARGET_FILE="proton"
-  else
-    TARGET_FILE=$NAME
-  fi
+  printf %s "'proton' file already exists. Do you want to overwrite it? (y/n): "
+  # shellcheck disable=SC2162
+  read answer || answer="n"
+  case "$answer" in
+    y|Y) TARGET_FILE="proton" ;;
+    *)   TARGET_FILE=$NAME ;;
+  esac
 fi
 
 # Helpers
@@ -68,7 +72,8 @@ command -v curl >/dev/null 2>&1 || { echo "curl is required" >&2; exit 1; }
 
 tmpdir=$(mktemp -d)
 cleanup() { rm -rf "$tmpdir"; }
-trap cleanup EXIT
+# Use EXIT (or 0) for broad compatibility
+trap cleanup EXIT 2>/dev/null || trap cleanup 0
 
 download_to() {
   # $1=url $2=dest
