@@ -1050,6 +1050,6 @@ entries:
     - https://github.com/timeplus-io/proton
     type: application
     urls:
-    - https://d.timeplus.com/charts/timeplus-proton-v1.0.0.tgz
+    - https://install.timeplus.com/charts/timeplus-proton-v1.0.0.tgz
     version: 1.0.0
 generated: "2025-10-24T08:01:48.27102804Z"
